@@ -940,7 +940,7 @@ declare namespace React {
         // Standard HTML Attributes
         accessKey?: string;
         className?: string;
-        contentEditable?: boolean;
+        contentEditable?: boolean | string;
         contextMenu?: string;
         dir?: string;
         draggable?: boolean;
